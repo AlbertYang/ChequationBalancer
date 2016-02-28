@@ -1,0 +1,12 @@
+INPUT(
+./release\main.o
+./release\mainwindow.o
+./release\keyboard.o
+./release\warnningbox.o
+./release\help_dlg.o
+./release\moc_mainwindow.o
+./release\moc_keyboard.o
+./release\moc_warnningbox.o
+./release\moc_help_dlg.o
+./release\qrc_background.o
+);

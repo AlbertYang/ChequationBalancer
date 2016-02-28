@@ -1,0 +1,22 @@
+<RCC>
+    <qresource prefix="/file">
+        <file>images/bank.png</file>
+        <file>images/che.png</file>
+        <file>images/che_hover.png</file>
+        <file>images/exit.png</file>
+        <file>images/exit_hover.png</file>
+        <file>images/Favorites.png</file>
+        <file>images/help.png</file>
+        <file>images/help_hover.png</file>
+        <file>images/keys.png</file>
+        <file>images/solve.png</file>
+        <file>images/solve_hover.png</file>
+        <file>images/mainWindow.png</file>
+        <file>images/iSee.png</file>
+        <file>images/iSee_hover.png</file>
+        <file>images/warnningBox.png</file>
+        <file>images/help_bkg.png</file>
+        <file>images/che_back.png</file>
+        <file>images/zhiwen.png</file>
+    </qresource>
+</RCC>

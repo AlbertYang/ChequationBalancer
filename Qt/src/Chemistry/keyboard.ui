@@ -1,0 +1,3565 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>keyboard</class>
+ <widget class="QWidget" name="keyboard">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>756</width>
+    <height>614</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QFrame" name="backGround">
+   <property name="geometry">
+    <rect>
+     <x>1</x>
+     <y>1</y>
+     <width>755</width>
+     <height>613</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QFrame#backGround{border-image:url(:/file/images/che_back.png)}</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>50</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#pushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton#pushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton#pushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="backBtn">
+    <property name="geometry">
+     <rect>
+      <x>313</x>
+      <y>155</y>
+      <width>75</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#backBtn{border-image:url(:/file/images/bank.png)}
+QPushButton#backBtn:hover{border-image:url(:/file/images/bank.png)}
+QPushButton#backBtn:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="oneBtn">
+    <property name="geometry">
+     <rect>
+      <x>133</x>
+      <y>31</y>
+      <width>41</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#oneBtn{border-image:url(:/file/images/bank.png)}
+QPushButton#oneBtn:hover{border-image:url(:/file/images/bank.png)}
+QPushButton#oneBtn:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="twoBtn">
+    <property name="geometry">
+     <rect>
+      <x>182</x>
+      <y>30</y>
+      <width>41</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#twoBtn{border-image:url(:/file/images/bank.png)}
+QPushButton#twoBtn:hover{border-image:url(:/file/images/bank.png)}
+QPushButton#twoBtn:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="threeBtn">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>30</y>
+      <width>41</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#threeBtn{border-image:url(:/file/images/bank.png)}
+QPushButton#threeBtn:hover{border-image:url(:/file/images/bank.png)}
+QPushButton#threeBtn:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="fourBtn">
+    <property name="geometry">
+     <rect>
+      <x>278</x>
+      <y>30</y>
+      <width>41</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#fourBtn{border-image:url(:/file/images/bank.png)}
+QPushButton#fourBtn:hover{border-image:url(:/file/images/bank.png)}
+QPushButton#fourBtn:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="fiveBtn">
+    <property name="geometry">
+     <rect>
+      <x>326</x>
+      <y>30</y>
+      <width>41</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#fiveBtn{border-image:url(:/file/images/bank.png)}
+QPushButton#fiveBtn:hover{border-image:url(:/file/images/bank.png)}
+QPushButton#fiveBtn:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="sixBtn">
+    <property name="geometry">
+     <rect>
+      <x>373</x>
+      <y>30</y>
+      <width>41</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#sixBtn{border-image:url(:/file/images/bank.png)}
+QPushButton#sixBtn:hover{border-image:url(:/file/images/bank.png)}
+QPushButton#sixBtn:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="sevenBtn">
+    <property name="geometry">
+     <rect>
+      <x>422</x>
+      <y>30</y>
+      <width>41</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#sevenBtn{border-image:url(:/file/images/bank.png)}
+QPushButton#sevenBtn:hover{border-image:url(:/file/images/bank.png)}
+QPushButton#sevenBtn:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="eightBtn">
+    <property name="geometry">
+     <rect>
+      <x>469</x>
+      <y>30</y>
+      <width>41</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#eightBtn{border-image:url(:/file/images/bank.png)}
+QPushButton#eightBtn:hover{border-image:url(:/file/images/bank.png)}
+QPushButton#eightBtn:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="nineBtn">
+    <property name="geometry">
+     <rect>
+      <x>518</x>
+      <y>30</y>
+      <width>41</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#nineBtn{border-image:url(:/file/images/bank.png)}
+QPushButton#nineBtn:hover{border-image:url(:/file/images/bank.png)}
+QPushButton#nineBtn:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="zeroBtn">
+    <property name="geometry">
+     <rect>
+      <x>134</x>
+      <y>94</y>
+      <width>41</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#zeroBtn{border-image:url(:/file/images/bank.png)}
+QPushButton#zeroBtn:hover{border-image:url(:/file/images/bank.png)}
+QPushButton#zeroBtn:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="plusBtn">
+    <property name="geometry">
+     <rect>
+      <x>182</x>
+      <y>92</y>
+      <width>41</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#plusBtn{border-image:url(:/file/images/bank.png)}
+QPushButton#plusBtn:hover{border-image:url(:/file/images/bank.png)}
+QPushButton#plusBtn:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="equalBtn">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>93</y>
+      <width>41</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#equalBtn{border-image:url(:/file/images/bank.png)}
+QPushButton#equalBtn:hover{border-image:url(:/file/images/bank.png)}
+QPushButton#equalBtn:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="leftBtn">
+    <property name="geometry">
+     <rect>
+      <x>278</x>
+      <y>93</y>
+      <width>41</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#leftBtn{border-image:url(:/file/images/bank.png)}
+QPushButton#leftBtn:hover{border-image:url(:/file/images/bank.png)}
+QPushButton#leftBtn:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="rightBtn">
+    <property name="geometry">
+     <rect>
+      <x>326</x>
+      <y>93</y>
+      <width>41</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#rightBtn{border-image:url(:/file/images/bank.png)}
+QPushButton#rightBtn:hover{border-image:url(:/file/images/bank.png)}
+QPushButton#rightBtn:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="spaceBtn">
+    <property name="geometry">
+     <rect>
+      <x>374</x>
+      <y>93</y>
+      <width>41</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#spaceBtn{border-image:url(:/file/images/bank.png)}
+QPushButton#spaceBtn:hover{border-image:url(:/file/images/bank.png)}
+QPushButton#spaceBtn:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="delBtn">
+    <property name="geometry">
+     <rect>
+      <x>422</x>
+      <y>94</y>
+      <width>41</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#delBtn{border-image:url(:/file/images/bank.png)}
+QPushButton#delBtn:hover{border-image:url(:/file/images/bank.png)}
+QPushButton#delBtn:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="autoRepeat">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="LiBtn">
+    <property name="geometry">
+     <rect>
+      <x>31</x>
+      <y>107</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#LiBtn{border-image:url(:/file/images/bank.png)}
+QPushButton#LiBtn:hover{border-image:url(:/file/images/bank.png)}
+QPushButton#LiBtn:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="NaBtn">
+    <property name="geometry">
+     <rect>
+      <x>31</x>
+      <y>166</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#NaBtn{border-image:url(:/file/images/bank.png)}
+
+QPushButton#NaBtn:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton#NaBtn:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="KBtn">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>223</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#KBtn{border-image:url(:/file/images/bank.png)}
+
+QPushButton#KBtn:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton#KBtn:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="RbBtn">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>282</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#RbBtn{border-image:url(:/file/images/bank.png)}
+
+QPushButton#RbBtn:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton#RbBtn:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="CsBtn">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>338</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#CsBtn{border-image:url(:/file/images/bank.png)}
+
+QPushButton#CsBtn:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton#CsBtn:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="FrBtn">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>396</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="RaBtn">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>397</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="BaBtn">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>340</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="SrBtn">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>280</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="CaBtn">
+    <property name="geometry">
+     <rect>
+      <x>68</x>
+      <y>224</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="MgBtn">
+    <property name="geometry">
+     <rect>
+      <x>69</x>
+      <y>166</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="BeBtn">
+    <property name="geometry">
+     <rect>
+      <x>69</x>
+      <y>108</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ScBtn">
+    <property name="geometry">
+     <rect>
+      <x>108</x>
+      <y>223</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="YBtn">
+    <property name="geometry">
+     <rect>
+      <x>108</x>
+      <y>280</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ScBtn_2">
+    <property name="geometry">
+     <rect>
+      <x>146</x>
+      <y>223</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ScBtn_3">
+    <property name="geometry">
+     <rect>
+      <x>146</x>
+      <y>280</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ScBtn_4">
+    <property name="geometry">
+     <rect>
+      <x>146</x>
+      <y>340</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ScBtn_5">
+    <property name="geometry">
+     <rect>
+      <x>146</x>
+      <y>396</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ScBtn_6">
+    <property name="geometry">
+     <rect>
+      <x>183</x>
+      <y>224</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ScBtn_7">
+    <property name="geometry">
+     <rect>
+      <x>184</x>
+      <y>282</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ScBtn_8">
+    <property name="geometry">
+     <rect>
+      <x>184</x>
+      <y>340</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ScBtn_9">
+    <property name="geometry">
+     <rect>
+      <x>185</x>
+      <y>396</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ScBtn_10">
+    <property name="geometry">
+     <rect>
+      <x>222</x>
+      <y>224</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ScBtn_11">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>280</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ScBtn_12">
+    <property name="geometry">
+     <rect>
+      <x>222</x>
+      <y>340</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ScBtn_13">
+    <property name="geometry">
+     <rect>
+      <x>222</x>
+      <y>395</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ScBtn_14">
+    <property name="geometry">
+     <rect>
+      <x>261</x>
+      <y>394</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ScBtn_15">
+    <property name="geometry">
+     <rect>
+      <x>261</x>
+      <y>394</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ScBtn_16">
+    <property name="geometry">
+     <rect>
+      <x>261</x>
+      <y>394</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ScBtn_17">
+    <property name="geometry">
+     <rect>
+      <x>261</x>
+      <y>396</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ScBtn_18">
+    <property name="geometry">
+     <rect>
+      <x>261</x>
+      <y>340</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ScBtn_19">
+    <property name="geometry">
+     <rect>
+      <x>261</x>
+      <y>280</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ScBtn_20">
+    <property name="geometry">
+     <rect>
+      <x>261</x>
+      <y>224</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ScBtn_21">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>396</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ScBtn_22">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>224</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ScBtn_23">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>340</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ScBtn_24">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>280</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ScBtn_25">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>392</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ScBtn_26">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>220</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ScBtn_27">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>276</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ScBtn_28">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>336</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ScBtn_29">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>228</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ScBtn_30">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>284</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ScBtn_31">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>400</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ScBtn_32">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>344</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ScBtn_33">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>396</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ScBtn_34">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>340</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ScBtn_35">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>280</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ScBtn_36">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>224</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ScBtn_37">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>392</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ScBtn_38">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>220</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ScBtn_39">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>276</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ScBtn_40">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>336</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ScBtn_81">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>400</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ScBtn_82">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>284</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ScBtn_83">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>344</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ScBtn_84">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>228</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ScBtn_85">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>110</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ScBtn_86">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>166</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ScBtn_87">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>110</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ScBtn_88">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>400</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ScBtn_89">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>344</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ScBtn_90">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>284</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ScBtn_91">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>228</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ScBtn_92">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>166</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ScBtn_93">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>400</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ScBtn_94">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>344</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ScBtn_95">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>166</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ScBtn_96">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>228</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ScBtn_97">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>110</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ScBtn_98">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>284</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ScBtn_99">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>400</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ScBtn_100">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>228</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ScBtn_101">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>344</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ScBtn_102">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>166</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ScBtn_103">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>284</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ScBtn_104">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>110</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ScBtn_105">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>396</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ScBtn_106">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>106</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ScBtn_107">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>280</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ScBtn_108">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>162</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ScBtn_109">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>224</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ScBtn_110">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>340</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ScBtn_111">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>400</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ScBtn_112">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>284</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ScBtn_113">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>344</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ScBtn_114">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>166</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ScBtn_115">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>228</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ScBtn_116">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>110</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ScBtn_117">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>50</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="FrBtn_4">
+    <property name="geometry">
+     <rect>
+      <x>97</x>
+      <y>487</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="FrBtn_5">
+    <property name="geometry">
+     <rect>
+      <x>135</x>
+      <y>487</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="FrBtn_6">
+    <property name="geometry">
+     <rect>
+      <x>173</x>
+      <y>487</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="FrBtn_7">
+    <property name="geometry">
+     <rect>
+      <x>211</x>
+      <y>487</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="FrBtn_8">
+    <property name="geometry">
+     <rect>
+      <x>248</x>
+      <y>487</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="FrBtn_9">
+    <property name="geometry">
+     <rect>
+      <x>288</x>
+      <y>487</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="FrBtn_10">
+    <property name="geometry">
+     <rect>
+      <x>326</x>
+      <y>487</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="FrBtn_11">
+    <property name="geometry">
+     <rect>
+      <x>365</x>
+      <y>487</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="FrBtn_12">
+    <property name="geometry">
+     <rect>
+      <x>404</x>
+      <y>487</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="FrBtn_13">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>487</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="FrBtn_14">
+    <property name="geometry">
+     <rect>
+      <x>479</x>
+      <y>487</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="FrBtn_15">
+    <property name="geometry">
+     <rect>
+      <x>517</x>
+      <y>487</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="FrBtn_16">
+    <property name="geometry">
+     <rect>
+      <x>556</x>
+      <y>487</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="FrBtn_17">
+    <property name="geometry">
+     <rect>
+      <x>595</x>
+      <y>487</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="FrBtn_18">
+    <property name="geometry">
+     <rect>
+      <x>634</x>
+      <y>487</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="FrBtn_19">
+    <property name="geometry">
+     <rect>
+      <x>97</x>
+      <y>544</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="FrBtn_20">
+    <property name="geometry">
+     <rect>
+      <x>479</x>
+      <y>544</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="FrBtn_21">
+    <property name="geometry">
+     <rect>
+      <x>326</x>
+      <y>544</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="FrBtn_22">
+    <property name="geometry">
+     <rect>
+      <x>517</x>
+      <y>544</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="FrBtn_23">
+    <property name="geometry">
+     <rect>
+      <x>365</x>
+      <y>544</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="FrBtn_24">
+    <property name="geometry">
+     <rect>
+      <x>211</x>
+      <y>543</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="FrBtn_25">
+    <property name="geometry">
+     <rect>
+      <x>556</x>
+      <y>544</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="FrBtn_26">
+    <property name="geometry">
+     <rect>
+      <x>135</x>
+      <y>544</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="FrBtn_27">
+    <property name="geometry">
+     <rect>
+      <x>404</x>
+      <y>544</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="FrBtn_28">
+    <property name="geometry">
+     <rect>
+      <x>248</x>
+      <y>544</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="FrBtn_29">
+    <property name="geometry">
+     <rect>
+      <x>595</x>
+      <y>544</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="FrBtn_30">
+    <property name="geometry">
+     <rect>
+      <x>173</x>
+      <y>544</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="FrBtn_31">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>544</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="FrBtn_32">
+    <property name="geometry">
+     <rect>
+      <x>288</x>
+      <y>544</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="FrBtn_33">
+    <property name="geometry">
+     <rect>
+      <x>634</x>
+      <y>544</y>
+      <width>41</width>
+      <height>53</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image:url(:/file/images/bank.png)}
+
+QPushButton:hover{border-image:url(:/file/images/bank.png)}
+
+QPushButton:pressed{border-image:url(:/file/images/zhiwen.png)}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>backBtn</sender>
+   <signal>clicked()</signal>
+   <receiver>keyboard</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>351</x>
+     <y>176</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>377</x>
+     <y>306</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

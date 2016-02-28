@@ -1,0 +1,12 @@
+INPUT(
+./debug\main.o
+./debug\mainwindow.o
+./debug\keyboard.o
+./debug\warnningbox.o
+./debug\help_dlg.o
+./debug\moc_mainwindow.o
+./debug\moc_keyboard.o
+./debug\moc_warnningbox.o
+./debug\moc_help_dlg.o
+./debug\qrc_background.o
+);
